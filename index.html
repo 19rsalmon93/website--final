@@ -1,0 +1,340 @@
+<!doctype html>
+<html ng-app class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPERIAL</title>
+    <under>Failure is simply the opportunity to begin again, this time more intelligently</under>
+    <script src="js/vendor/angular.js"></script>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/Footer.css">
+  </head>
+  <style>
+
+body {
+
+}
+</style>
+  <body>
+    <!--*Begin Nav-->
+    <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#"><strong>SIMPERIAL</strong></a>
+          <subtitle>Failure is simply the opportunity to begin again, this time more intelligently</subtitle>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chronicole</a></li>
+            <li><a href="#">Creatures</a></li>
+            <li><a href="#">Adornments</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+
+
+            </li>
+          </ul>
+          <div class="multilevel-offcanvas off-canvas position-right" id="offCanvasRight" data-off-canvas>
+            <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#Chronicole">Chronicole</a><button type="button" class="button hollow topbar-responsive-button">Creatures</button>
+  <a href="#Adornments">Adornments</a><button type="button" class="button hollow topbar-responsive-button">Adornments</button>
+  <a href="#News">News</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+<div class="dropdown">
+  <button onclick="Adornments()" class="dropbtn">Dropdown</button>
+  <dir id="myDropdown" class="dropdown-content">
+    <div class="navbar">
+  <a href="#home">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#company">Company</a>
+      <a href="#team">Team</a>
+      <a href="#careers">Careers</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">Bring</a>
+      <a href="#deliver">Deliver</a>
+      <a href="#package">Package</a>
+      <a href="#express">Express</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <a href="#contact">Contact</a>
+</div>
+    <a href="#">Link 1</a>
+
+
+       </ul>
+     </li>
+    <li><a href="#">CITIES</a>
+      <ul class="menu vertical nested">
+        <li><a href="#">London</a></li>
+        <li><a href="#">New York</a></li>
+        <li><a href="#">Paris</a></li>
+       </ul>
+    </li>
+   </ul>
+  <ul class="vertical menu">
+    <li class="off-canvas-menu-item"><a href="#">Tour</a></li>
+    <li><a href="#">Login</a></li>
+    <li><a href="#">Register</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Support</a></li>
+  </ul>
+  <ul class="vertical menu">
+     <li><a href="#">Journal</a></li>
+     <li><a href="#">FAQ</a></li>
+     <li><a href="#">Terms & Conditions</a></li>
+     <li><a href="#">Careers</a></li>
+     <li><a href="#">Students</a></li>
+   </ul>
+  <ul class="menu simple social-links">
+    <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+    <li><a href="#" target="_blank"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
+  </ul>
+</div>
+
+<div class="off-canvas-content" data-off-canvas-content>
+  <div class="nav-bar">
+      <div class="nav-bar-left">
+        <a class="nav-bar-logo"><img class="logo" src="https://placehold.it/150x30"></a>
+      </div>
+      <div class="nav-bar-right">
+        <ul class="menu">
+          <li class="hide-for-small-only"><a href="#">TOUR</a></li>
+          <li class="hide-for-small-only"><a href="#">LOGIN</a></li>
+          <li>
+          <li>
+            <button class="offcanvas-trigger" type="button" data-open="offCanvasRight">
+              <span class="offcanvas-trigger-text hide-for-small-only">Menu</span>
+              <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+            </button>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <div class="body-info">
+    <h4> Multilevel Off-Canvas </h4>
+
+   </div>
+ </div>
+
+
+
+        </div>
+      </div>
+    </nav>
+    <!--*End Nav-->
+
+
+
+
+    <!--*Begin header-->
+    <!-- NOTE: This is the off-canvas menu that appears when you click on the hamburger menu on smaller screens. Everything in the `.off-canvas` div belongs in `src/layouts/default.html`. Copy this section into the `default.html` file and remove it from this file.  -->
+<div class="off-canvas ecommerce-header-off-canvas position-left" id="ecommerce-header" data-off-canvas>
+
+<!-- Close button -->
+<button class="close-button" aria-label="Close menu" type="button" data-close>
+  <span aria-hidden="true">&times;</span>
+</button>
+
+
+<hr>
+
+<!-- Menu -->
+<ul class="menu vertical">
+  <li><a href="#">Help</a></li>
+  <li><a href="#">Order Status</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">My Account</a></li>
+</ul>
+
+</div>
+
+<!-- NOTE: This is the header menu that appears at the top of your site. -->
+<div class="ecommerce-header-top show-for-large">
+  <div class="row align-justify">
+    <div class="ecommerce-header-top-message">
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="ecommerce-header show-for-large">
+  <div class="row align-justify align-middle">
+    <div class="shrink column">
+      <ul class="vertical medium-horizontal menu">
+        <li><a href="#"><img class="logo" src="https://placehold.it/160x50"></a></li>
+        <li class="main-nav-link"><a href="categories.html">
+        <li class="main-nav-link"><a href="#">
+        <li class="main-nav-link"><a href="why.html">
+        <li class="main-nav-link"><a href="build.html">
+        <li class="main-nav-link"><a href="#">
+      </ul>
+    </div>
+    <div class="shrink column">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button type="button" class="button search-button"></button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="ecommerce-header-mobile hide-for-large">
+  <div class="ecommerce-header-mobile-left">
+    <button class="menu-icon" type="button" data-toggle="ecommerce-header"></button>
+    <form class="ecommerce-header-search-exandable">
+      <input type="search" placeholder="Search">
+    </form>
+  </div>
+  <div class="ecommerce-header-mobile-center">
+    <a href="#"><img class="logo" src="https://placehold.it/130x30"></a>
+  </div>
+  <div class="ecommerce-header-mobile-right">
+    <i class="fa fa-shopping-cart"></i>
+  </div>
+</div>
+</div>
+<!--*End header-->
+
+    <!--*Begin content-->
+    <div class="irc_mi" src="https://wallpaperback.com/wp-content/uploads/2018/08/3D-Backgrounds-Fantastics-Pioneersb.jpg""full-screen">
+      <img class="irc_mi" src="https://wallpaperback.com/wp-content/uploads/2018/08/3D-Backgrounds-Fantastics-Pioneersb.jpg" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" "full-screen" style="margin-top: 37px;" alt="Image result for final frontier voyager">
+
+
+      <div class="top-content-section">
+        <div class="top-bar">
+          <div class="top-bar-left">
+            <ul class="menu">
+              <li class="menu-text"><img src="http://placehold.it/75x30" alt="logo"></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-content-section">
+        <h1></h1>
+
+      </div>
+
+      <div class="bottom-content-section" data-magellan data-threshold="0">
+        <a href="#main-content-section"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12c0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12 12-5.373 12-12zm-18.005-1.568l1.415-1.414 4.59 4.574 4.579-4.574 1.416 1.414-5.995 5.988-6.005-5.988z"/></svg></a>
+      </div>
+
+    </div>
+
+    <div id="main-content-section" data-magellan-target="main-content-section">
+      <!-- your content goes here -->
+    </div>
+<!--*End content-->
+
+
+
+    <!--*Begin footer-->
+    <div id="engadget-footer-sitemap-container">
+      <footer id="engadget-footer-sitemap">
+        <div class="links">
+          <div class="link-column">
+            <ul class="menu vertical">
+
+            </ul>
+          </div>
+
+        </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div id="engadget-footer-social-container">
+        <footer id="engadget-footer-social">
+            <div class="footer-left">
+                <div class="newsletter">
+                    <h6>Sign up for our newsletter</h6>
+                    <div class="input-group">
+
+                        <input class="input-group-field" type="email" placeholder="Email address">
+                        <div class="input-group-button">
+                            <input type="submit" class="button" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h6>Follow us</h6>
+                <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-tumblr-square fa-3x" aria-hidden="true"></i>
+            </div>
+        </footer>
+    </div>
+    <div id="engadget-footer-contact-details-container">
+        <footer id="engadget-footer-contact-details">
+            <div class="footer-left">
+                <div class="contact-details">
+                    <ul>
+                        <li><img class="thumbnail" src="http://placehold.it/80"></li>
+                        <li><i class="fa fa-phone fa-lg" aria-hidden="true"></i> 01234 567890</li>
+                        <li><a data-toggle="animatedModal10"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul class="menu align-right">
+                <bottom right>
+  <audio controls autoplay><audio loop="loop">
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+
+</audio>
+ </bottom right>
+</div>
+                </ul>
+            </div>
+        </footer>
+    </div>
+  <!--*End footer-->
+
+
+    <script src="js/vendor/angular.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
